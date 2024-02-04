@@ -1,0 +1,67 @@
+.outer-div
+{
+  background-color: rgb(240, 233, 222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-box
+{
+  background-color: white;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);  
+  width: 900px;
+}
+.head-bar
+{
+  padding: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head-title
+{
+  font-size:30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.create
+{
+  background-color: rgb(7, 7, 50);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.todo-list
+{
+ padding: 20px;
+}
+
+.todo-items
+{
+  border: 2px solid rgb(212, 208, 208);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.circle
+{
+  border:5px solid  rgb(224, 153, 153);
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  margin-right:10px ;
+}
+.content
+{
+   padding: 10px;
+}
+.title{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
